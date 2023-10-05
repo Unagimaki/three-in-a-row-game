@@ -1,0 +1,25 @@
+.game {
+    width: inherit;
+    height: inherit;
+    background-color: #000;
+}
+.item {
+    width: 13.2vw;
+    height: 13.2vw;
+    position: absolute;
+    transition: .2s linear;
+    border: 0.42vw solid #fff;
+    border-radius: 2vw;
+    background-repeat: no-repeat;
+    background-size: 20vw;
+    background-position: center;
+    transition: border .2s linear;
+    transition: top .5s linear;
+}
+
+.chosen {
+    border: 0.42vw solid #0077FF;
+    transform: scale(1.1);
+    transition: transform .2s linear;
+
+}

@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;           
+}
+
+body {
+    width: 100vw;
+    height: 75vw; 
+    overflow: hidden;
+}
+.wrapper {
+    width: inherit;
+    height: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.none {
+    display: none;
+}
+.flex {
+    display: flex;
+}
+
+.smooth-start {
+    animation: start .5s forwards;
+}
+.smooth-end {
+    animation: end .5s forwards;
+}
+
+
+@keyframes start {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes end {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

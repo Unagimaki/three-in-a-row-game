@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/null.css">
+    <link rel="stylesheet" href="./styles/intro.css">
+    <link rel="stylesheet" href="./styles/game.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/end.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="modal none">
+        <img src="./images/game/book.png" alt="icon" class="modal_icon">
+        <div class="modal_title"></div>
+        <div class="modal_text"></div>
+        <button class="modal_button"></button>
+    </div>
+
+    <section class="intro">
+        <div class="intro_logo_container">
+            <img src="/images/logo.png" alt="logo" class="intro_logo">
+        </div>
+        <div class="intro_first flex">
+            <div class="intro_title">сделайте перерыв</div>
+            <div class="intro_subtitle">отправьтесь <br> на поиски впечатлений</div>
+            <button class="intro_button_first">играть</button>
+        </div>
+        <div class="intro_second none">
+            <div class="intro_title">найдите три одинаковые <br> иконки, стоящие рядом <br> по горизонтали или вертикали</div>
+            <button class="intro_button_second">играть</button>
+        </div>
+    </section>
+
+    <section class="game none">
+    </section>
+
+    <section class="end none">
+        <div class="end_logo_container">
+            <img src="./images/logo.png" alt="logo" class="end_logo">
+        </div>
+            <div class="end_title">это успех!</div>
+            <div class="end_text">управляйте своей лентой <br> в VK Клипах с помощью <br> конструктора впечатлений</div>
+            <button class="end_button">попробовать</button>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

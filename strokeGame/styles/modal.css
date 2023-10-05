@@ -1,0 +1,50 @@
+.modal {
+    position: absolute;
+    top: 9.51vw;
+    left: 8.13vw;
+    width: 83.82vw;
+    height: 55.97vw;
+    border-radius: 65px;
+    background: rgba(44, 44, 44, 0.95);
+    backdrop-filter: blur(27.5px);
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    z-index: 99;
+    text-align: center;
+    padding-top: 5.5vw;
+}
+.modal_icon {
+    position: absolute;
+    top: -8vw;
+    left: 35vw;
+    width: 14.31vw;
+}
+.modal_title {
+    font-size: 5vw;
+    font-family: 'VKDisplay Medium';
+    margin-bottom: 2.26vw;
+}
+.modal_text {
+    font-size: 4vw;
+    font-family: 'VKDisplay Regular';
+    margin-bottom: 2.75vw;
+}
+.modal_button {
+    color: #fff;
+    background-color: #0077FF;
+    width: 44.93vw;
+    height: 9vw;
+    font-family: 'VKDisplay Medium';
+    font-size: 4.24vw;
+    border-radius: 2.43vw;
+}
+.modal.modal_second {
+    padding-top: 13.58vw;
+}
+.modal.modal_second .modal_button {
+    width: 25vw;
+}
+.modal.modal_second .modal_text {
+    margin-bottom: 4.75vw;
+}
